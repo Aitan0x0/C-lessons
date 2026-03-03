@@ -1,5 +1,6 @@
 ﻿//ededi orta tapma
 
+
 namespace C___lesson1
 {
     internal class Program
