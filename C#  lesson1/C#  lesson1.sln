@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c# even and odd num count",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c# Triangle", "..\c# Triangle\c# Triangle.csproj", "{3AF42E7B-07B7-4999-B101-CBAE8FF3DFC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c# massive", "c# massive", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massive_1", "..\massive_1\massive_1.csproj", "{CC0FB83B-A7A5-497F-9053-3736A41CD751}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,9 +61,16 @@ Global
 		{3AF42E7B-07B7-4999-B101-CBAE8FF3DFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AF42E7B-07B7-4999-B101-CBAE8FF3DFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AF42E7B-07B7-4999-B101-CBAE8FF3DFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0FB83B-A7A5-497F-9053-3736A41CD751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0FB83B-A7A5-497F-9053-3736A41CD751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0FB83B-A7A5-497F-9053-3736A41CD751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0FB83B-A7A5-497F-9053-3736A41CD751}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC0FB83B-A7A5-497F-9053-3736A41CD751} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {150F9376-CF1E-476F-98C0-5D7D93D1FC00}
