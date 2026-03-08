@@ -23,24 +23,23 @@ namespace c__massive_2
             for (int i = 0; i < myArray.Length; i++)
             {
 
-                if (myArray[i]!= 0)
+                if (myArray[i] != 0)
                 {
                     myArray_1[j] = myArray[i];
-                    j++; 
+                    j++;
                 }
-              
 
             }
-            for ( ; j<myArray_1.Length; j++)
+            for (; j < myArray_1.Length; j++)
             {
-                myArray_1[j] = 0; 
+                myArray_1[j] = 0;
 
             }
 
             Console.WriteLine($"Olari sona atilmis massiv  :");
             foreach (var item in myArray_1)
             {
-                Console.Write(item +" ");
+                Console.Write(item + " ");
             }
 
         }
