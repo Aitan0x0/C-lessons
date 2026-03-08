@@ -1,4 +1,6 @@
-﻿namespace c__massive_2
+﻿//massivdeki 0-lari sona yazan kod
+
+namespace c__massive_2
 {
     internal class Program
     {
@@ -7,7 +9,7 @@
 
             int[] myArray = new int[6];
             int[] myArray_1 = new int[6];
-            int zeroCount = 0;
+            //int zeroCount = 0;
             int j = 0;
 
             //massivi daxil etdik
@@ -29,7 +31,7 @@
               
 
             }
-            for ( ; j>myArray_1.Length; j++)
+            for ( ; j<myArray_1.Length; j++)
             {
                 myArray_1[j] = 0; 
 
