@@ -27,7 +27,7 @@ namespace c__lesson_2
             }
             else
             {
-                Remove - Item - Recurse - Force.git
+                //Remove - Item - Recurse - Force.git
                 Console.WriteLine("Ededler dogru daxil edilmeyib");
                 return; 
             }

@@ -23,13 +23,9 @@ namespace Ededdeki_reqemlerin_cemi
         }
         static void Main(string[] args)
         {
-
             Console.Write("Ededi daxil edin: ");
             int num = int.Parse(Console.ReadLine());
             Console.WriteLine($"Ededdeki reqemlerin cemi: {DigitSum(num)}");
-          
-
-
         }
     }
 }
