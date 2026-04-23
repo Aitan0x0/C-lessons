@@ -31,7 +31,7 @@ namespace Class_lesson2
         public float OrtalamaBal()
         {
             float result = 0;
-            result = (fizBal + riyBal + kimyaBal) / 3;
+            result = (fizBal + riyBal + kimyaBal) / 3.0f;
             return result;
         }
 
@@ -42,9 +42,7 @@ namespace Class_lesson2
         }
 
 
-
-
-
+        //proporties
 
         public int KimyaBal
         {
